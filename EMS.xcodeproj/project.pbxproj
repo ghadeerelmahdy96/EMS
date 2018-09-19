@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42167FC32076280E004D0131 /* administratoreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42167FC22076280E004D0131 /* administratoreditViewController.swift */; };
+		422147BA207CDA90008375AF /* administratorloginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422147B9207CDA90008375AF /* administratorloginViewController.swift */; };
+		422F036A206AD6A60062E377 /* administratoraddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422F0369206AD6A60062E377 /* administratoraddViewController.swift */; };
+		42380CB82058444000327735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42380CB72058444000327735 /* AppDelegate.swift */; };
+		42380CBA2058444000327735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42380CB92058444000327735 /* ViewController.swift */; };
+		42380CBD2058444000327735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42380CBB2058444000327735 /* Main.storyboard */; };
+		42380CC02058444000327735 /* EMS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42380CBE2058444000327735 /* EMS.xcdatamodeld */; };
+		42380CC22058444000327735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42380CC12058444000327735 /* Assets.xcassets */; };
+		42380CC52058444000327735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42380CC32058444000327735 /* LaunchScreen.storyboard */; };
+		423F47E320A4F8A5005B31E0 /* employeeloginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F47E220A4F8A5005B31E0 /* employeeloginViewController.swift */; };
+		423F47E520A50374005B31E0 /* employeepanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F47E420A50374005B31E0 /* employeepanelViewController.swift */; };
+		423F47E720A50F44005B31E0 /* employeeshowdataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F47E620A50F44005B31E0 /* employeeshowdataViewController.swift */; };
+		423F47E920A5988A005B31E0 /* leaverequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F47E820A5988A005B31E0 /* leaverequestViewController.swift */; };
+		424778F120A77F230032DABE /* subtitlecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424778F020A77F230032DABE /* subtitlecell.swift */; };
+		4248C477208DD89600530C9A /* administratorsearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248C476208DD89600530C9A /* administratorsearchViewController.swift */; };
+		4248C479208DDF5D00530C9A /* popupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4248C478208DDF5D00530C9A /* popupViewController.swift */; };
+		424FF53520A61FFE009C78CB /* showrequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FF53420A61FFE009C78CB /* showrequestsViewController.swift */; };
+		427D10D9206EDD8F0011ECBE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D10D8206EDD8F0011ECBE /* File.swift */; };
+		4285C213206FB1E500B9871F /* administratorpanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285C212206FB1E500B9871F /* administratorpanelViewController.swift */; };
+		429B4EA5208BE6EF0095BA5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 429B4EA4208BE6EF0095BA5E /* GoogleService-Info.plist */; };
+		6CCF9AED28ECF53B4030C6B5 /* Pods_EMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363E62F8DBE48A1A7D038887 /* Pods_EMS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		363E62F8DBE48A1A7D038887 /* Pods_EMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42167FC22076280E004D0131 /* administratoreditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = administratoreditViewController.swift; sourceTree = "<group>"; };
+		422147B9207CDA90008375AF /* administratorloginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = administratorloginViewController.swift; sourceTree = "<group>"; };
+		422F0369206AD6A60062E377 /* administratoraddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = administratoraddViewController.swift; sourceTree = "<group>"; };
+		42380CB42058444000327735 /* EMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42380CB72058444000327735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42380CB92058444000327735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42380CBC2058444000327735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42380CBF2058444000327735 /* EMS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EMS.xcdatamodel; sourceTree = "<group>"; };
+		42380CC12058444000327735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42380CC42058444000327735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42380CC62058444000327735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423F47E220A4F8A5005B31E0 /* employeeloginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = employeeloginViewController.swift; sourceTree = "<group>"; };
+		423F47E420A50374005B31E0 /* employeepanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = employeepanelViewController.swift; sourceTree = "<group>"; };
+		423F47E620A50F44005B31E0 /* employeeshowdataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = employeeshowdataViewController.swift; sourceTree = "<group>"; };
+		423F47E820A5988A005B31E0 /* leaverequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leaverequestViewController.swift; sourceTree = "<group>"; };
+		424778F020A77F230032DABE /* subtitlecell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subtitlecell.swift; sourceTree = "<group>"; };
+		4248C476208DD89600530C9A /* administratorsearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = administratorsearchViewController.swift; sourceTree = "<group>"; };
+		4248C478208DDF5D00530C9A /* popupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupViewController.swift; sourceTree = "<group>"; };
+		424FF53420A61FFE009C78CB /* showrequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showrequestsViewController.swift; sourceTree = "<group>"; };
+		427D10D8206EDD8F0011ECBE /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		4285C212206FB1E500B9871F /* administratorpanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = administratorpanelViewController.swift; sourceTree = "<group>"; };
+		429B4EA4208BE6EF0095BA5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FA78F428F265F3A2D5E73A1 /* Pods-EMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMS/Pods-EMS.debug.xcconfig"; sourceTree = "<group>"; };
+		F993AD2E6A781D543BC60DAD /* Pods-EMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMS.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMS/Pods-EMS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42380CB12058444000327735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCF9AED28ECF53B4030C6B5 /* Pods_EMS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE0E58E340A902E87442CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363E62F8DBE48A1A7D038887 /* Pods_EMS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42380CAB2058444000327735 = {
+			isa = PBXGroup;
+			children = (
+				42380CB62058444000327735 /* EMS */,
+				42380CB52058444000327735 /* Products */,
+				833218EF4A5B0C41C62AA670 /* Pods */,
+				3BE0E58E340A902E87442CCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42380CB52058444000327735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42380CB42058444000327735 /* EMS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42380CB62058444000327735 /* EMS */ = {
+			isa = PBXGroup;
+			children = (
+				42380CB72058444000327735 /* AppDelegate.swift */,
+				42380CB92058444000327735 /* ViewController.swift */,
+				42380CBB2058444000327735 /* Main.storyboard */,
+				4248C478208DDF5D00530C9A /* popupViewController.swift */,
+				4248C476208DD89600530C9A /* administratorsearchViewController.swift */,
+				422147B9207CDA90008375AF /* administratorloginViewController.swift */,
+				42167FC22076280E004D0131 /* administratoreditViewController.swift */,
+				4285C212206FB1E500B9871F /* administratorpanelViewController.swift */,
+				422F0369206AD6A60062E377 /* administratoraddViewController.swift */,
+				423F47E820A5988A005B31E0 /* leaverequestViewController.swift */,
+				423F47E220A4F8A5005B31E0 /* employeeloginViewController.swift */,
+				423F47E420A50374005B31E0 /* employeepanelViewController.swift */,
+				423F47E620A50F44005B31E0 /* employeeshowdataViewController.swift */,
+				424FF53420A61FFE009C78CB /* showrequestsViewController.swift */,
+				424778F020A77F230032DABE /* subtitlecell.swift */,
+				42380CC12058444000327735 /* Assets.xcassets */,
+				42380CC32058444000327735 /* LaunchScreen.storyboard */,
+				42380CC62058444000327735 /* Info.plist */,
+				429B4EA4208BE6EF0095BA5E /* GoogleService-Info.plist */,
+				42380CBE2058444000327735 /* EMS.xcdatamodeld */,
+				427D10D8206EDD8F0011ECBE /* File.swift */,
+			);
+			path = EMS;
+			sourceTree = "<group>";
+		};
+		833218EF4A5B0C41C62AA670 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA78F428F265F3A2D5E73A1 /* Pods-EMS.debug.xcconfig */,
+				F993AD2E6A781D543BC60DAD /* Pods-EMS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42380CB32058444000327735 /* EMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42380CC92058444000327735 /* Build configuration list for PBXNativeTarget "EMS" */;
+			buildPhases = (
+				31426090BC4A051B241A3465 /* [CP] Check Pods Manifest.lock */,
+				42380CB02058444000327735 /* Sources */,
+				42380CB12058444000327735 /* Frameworks */,
+				42380CB22058444000327735 /* Resources */,
+				FFD8BB474D9737A301E29808 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMS;
+			productName = EMS;
+			productReference = 42380CB42058444000327735 /* EMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42380CAC2058444000327735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ghadeer Elmahdy";
+				TargetAttributes = {
+					42380CB32058444000327735 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HQGQ663PG7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42380CAF2058444000327735 /* Build configuration list for PBXProject "EMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42380CAB2058444000327735;
+			productRefGroup = 42380CB52058444000327735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42380CB32058444000327735 /* EMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42380CB22058444000327735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42380CC52058444000327735 /* LaunchScreen.storyboard in Resources */,
+				42380CC22058444000327735 /* Assets.xcassets in Resources */,
+				42380CBD2058444000327735 /* Main.storyboard in Resources */,
+				429B4EA5208BE6EF0095BA5E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31426090BC4A051B241A3465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD8BB474D9737A301E29808 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EMS/Pods-EMS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMS/Pods-EMS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42380CB02058444000327735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427D10D9206EDD8F0011ECBE /* File.swift in Sources */,
+				4248C479208DDF5D00530C9A /* popupViewController.swift in Sources */,
+				422F036A206AD6A60062E377 /* administratoraddViewController.swift in Sources */,
+				422147BA207CDA90008375AF /* administratorloginViewController.swift in Sources */,
+				423F47E920A5988A005B31E0 /* leaverequestViewController.swift in Sources */,
+				42380CC02058444000327735 /* EMS.xcdatamodeld in Sources */,
+				423F47E520A50374005B31E0 /* employeepanelViewController.swift in Sources */,
+				4248C477208DD89600530C9A /* administratorsearchViewController.swift in Sources */,
+				42380CBA2058444000327735 /* ViewController.swift in Sources */,
+				424FF53520A61FFE009C78CB /* showrequestsViewController.swift in Sources */,
+				42380CB82058444000327735 /* AppDelegate.swift in Sources */,
+				4285C213206FB1E500B9871F /* administratorpanelViewController.swift in Sources */,
+				423F47E720A50F44005B31E0 /* employeeshowdataViewController.swift in Sources */,
+				424778F120A77F230032DABE /* subtitlecell.swift in Sources */,
+				42167FC32076280E004D0131 /* administratoreditViewController.swift in Sources */,
+				423F47E320A4F8A5005B31E0 /* employeeloginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42380CBB2058444000327735 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42380CBC2058444000327735 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42380CC32058444000327735 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42380CC42058444000327735 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42380CC72058444000327735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42380CC82058444000327735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42380CCA2058444000327735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA78F428F265F3A2D5E73A1 /* Pods-EMS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HQGQ663PG7;
+				INFOPLIST_FILE = EMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghadeerelmahdy.EMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42380CCB2058444000327735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F993AD2E6A781D543BC60DAD /* Pods-EMS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HQGQ663PG7;
+				INFOPLIST_FILE = EMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghadeerelmahdy.EMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42380CAF2058444000327735 /* Build configuration list for PBXProject "EMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42380CC72058444000327735 /* Debug */,
+				42380CC82058444000327735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42380CC92058444000327735 /* Build configuration list for PBXNativeTarget "EMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42380CCA2058444000327735 /* Debug */,
+				42380CCB2058444000327735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42380CBE2058444000327735 /* EMS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42380CBF2058444000327735 /* EMS.xcdatamodel */,
+			);
+			currentVersion = 42380CBF2058444000327735 /* EMS.xcdatamodel */;
+			path = EMS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42380CAC2058444000327735 /* Project object */;
+}
